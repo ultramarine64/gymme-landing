@@ -1,0 +1,52 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter', sans-serif;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 62px;
+}
+
+h2 {
+  font-size: 50px;
+  line-height: 50px;
+}
+
+h3 {
+  font-size: 38px;
+  line-height: 46px;
+}
+
+h4 {
+  font-size: 30px;
+  line-height: 46px;
+}
+
+h5 {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+h6 {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+@mixin text-style-body-large {
+  font-size: 24px;
+  line-height: 34px;
+}
+
+@mixin text-style-body-medium {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+@mixin text-style-body-small {
+  font-size: 16px;
+  line-height: 26px;
+}
