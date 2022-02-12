@@ -1,0 +1,24 @@
+.section-title {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-left: 70px;
+  height: 120px;
+
+  &::before {
+    display: block;
+    content: "";
+    background-image: url("../images/icons/user_friends.svg");
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 120px;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+  }
+
+  &::after {
+    content: ".";
+    color: $color-primary-200;
+  }
+}

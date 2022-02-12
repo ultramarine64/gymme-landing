@@ -1,0 +1,31 @@
+.mission-section {
+  padding: 140px 0 180px 0;
+
+  &__container {
+    width: 768px;
+    margin: 0 auto;
+  }
+
+  &__description {
+    margin-top: 32px;
+    font-size: 20px;
+    line-height: 32px;
+    color: $color-neutral-400;
+  }
+
+  &__join-button {
+    display: inline-block;
+    padding: 17px 0;
+    margin-top: 32px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $color-neutral-500;
+    font-family: Inter;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1px;
+
+    // to-do add an chevron to element
+  }
+}
