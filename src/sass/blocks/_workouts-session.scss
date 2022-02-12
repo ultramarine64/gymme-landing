@@ -1,0 +1,12 @@
+.workouts-session {
+  padding-bottom: 180px;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
+    align-items: center;
+    overflow: hidden;
+  }
+
+}

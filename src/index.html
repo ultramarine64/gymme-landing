@@ -7,6 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="css/style.min.css">
   <title>gymme</title>
 </head>
@@ -65,6 +66,55 @@
         <a href="#" class="mission-section__join-button">Join now</a>
       </div>
     </section>
+
+    <section class="workouts-session">
+      <div class="container">
+        <h2 class="section-title section-title_workouts">Training programs</h2>
+        <ul class="image-gallery" id="image-gallery">
+          <li class="image-gallery__item">
+            <div class="image-gallery__card">
+              <img src="images/training_1.jpg" alt="stretch" class="image-gallery__card-img">
+              <span class="image-gallery__card-name">stretch</span>
+            </div>
+          </li>
+          <li class="image-gallery__item">
+            <div class="image-gallery__card">
+              <img src="images/training_2.jpg" alt="boxing" class="image-gallery__card-img">
+              <span class="image-gallery__card-name">boxing</span>
+            </div>
+          </li>
+          <li class="image-gallery__item">
+            <div class="image-gallery__card">
+              <img src="images/training_3.jpg" alt="body pump" class="image-gallery__card-img">
+              <span class="image-gallery__card-name">body pump</span>
+            </div>
+          </li>
+          <li class="image-gallery__item">
+            <div class="image-gallery__card">
+              <img src="images/training_4.jpg" alt="yoga" class="image-gallery__card-img">
+              <span class="image-gallery__card-name">yoga</span>
+            </div>
+          </li>
+          <li class="image-gallery__item">
+            <div class="image-gallery__card">
+              <img src="images/training_5.jpg" alt="full body" class="image-gallery__card-img">
+              <span class="image-gallery__card-name">full body</span>
+            </div>
+          </li>
+        </ul>
+
+        <div class="control-buttons control-buttons_align-right">
+          <button class="control-buttons__left" id="image-gallery-left-control">
+            <img src="images/icons/circle_chevron.svg" alt="" class="control-buttons__left-img">
+          </button>
+          <button class="control-buttons__right" id="image-gallery-right-control">
+            <img src="images/icons/circle_chevron.svg" alt="" class="control-buttons__right-img">
+          </button>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <script src="./js/script.js"></script>
 </body>
 </html>

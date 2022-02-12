@@ -21,4 +21,11 @@
     content: ".";
     color: $color-primary-200;
   }
+
+  &_workouts {
+    &::before {
+      background-image: url("../images/icons/calendar.svg");
+      width: 120px;
+    }
+  }
 }

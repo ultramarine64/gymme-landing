@@ -1,0 +1,21 @@
+.control-buttons {
+  display: flex;
+  column-gap: 32px;
+
+  &__left, &__right {
+    height: 40px;
+    width: 40px;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }
+
+  &__left {
+    transform: rotate(-180deg);
+  }
+
+  &_align-right {
+    align-self: flex-end;
+  }
+}

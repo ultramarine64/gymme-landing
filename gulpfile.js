@@ -9,6 +9,8 @@ const htmlmin = require('gulp-htmlmin');
 gulp.task('watch', function() {
     gulp.watch("src/sass/**/*.+(scss|sass|css)", gulp.parallel('styles'));
     gulp.watch("src/*.html", gulp.parallel('html'));
+    gulp.watch("src/js/**/*.js").on('all', gulp.parallel('scripts'));
+    gulp.watch("src/images/**/*").on('all', gulp.parallel('images'));
 });
 
 gulp.task('server', function() {
