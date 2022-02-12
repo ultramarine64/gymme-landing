@@ -1,0 +1,35 @@
+.button {
+  display: inline-block;
+  outline: none;
+  text-decoration: none;
+  background-color: $color-neutral-100;
+  border: 2px solid $color-neutral-100;
+  color: $color-neutral-500;
+  border-radius: 1px;
+  padding: 14px 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 1px;
+
+  &_log-in {
+    background-color: transparent;
+    border: none;
+    color: $color-neutral-100;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 12px 8px;
+  }
+
+  &_sign-up {
+    background-color: $color-primary-200;
+    border: 2px solid $color-primary-200;
+    color: $color-neutral-100;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 12px 30px;
+  }
+}

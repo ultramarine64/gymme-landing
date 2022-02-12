@@ -1,0 +1,39 @@
+.header {
+  height: 790px;
+  padding: 20px 80px;
+  background-image: url("../images/header_bg.jpg");
+  background-position: 75% 0;
+  background-size: 581px 790px;
+  background-repeat: no-repeat;
+  background-color: $color-neutral-500;
+  color: white;
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__auth {
+    display: flex;
+    gap: 16px;
+  }
+
+  &__main {
+    margin: 190px 0 0 200px;
+    width: 530px;
+  }
+
+  &__title {
+    &-highlight {
+      color: $color-primary-200;
+    }
+
+    &-description {
+      font-size: 24px;
+      line-height: 34px;
+      color: $color-neutral-200;
+      margin: 32px 0;
+    }
+  }
+}

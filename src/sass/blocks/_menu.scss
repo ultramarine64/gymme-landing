@@ -1,0 +1,32 @@
+.menu {
+  &__list {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__item {
+    margin: 0px 22px;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 0px 10px;
+    transition: 0.15s all;
+
+    &:hover,
+    &:active {
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 1px;
+      color: $color-neutral-500;
+      // font-weight changing will cause container size changing.
+      // using text-shadow is kinda workaround.
+      text-shadow: 0px 0px 1px $color-neutral-500;
+    }
+  }
+}
