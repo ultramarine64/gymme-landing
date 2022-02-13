@@ -63,6 +63,16 @@ testimonialGalleryControls.right.addEventListener("click", () => {
                      "right");
 });
 
+const collapsibleButtons = document.querySelectorAll('.collapsible-item__button');
+
+for (let collapsibleButton of collapsibleButtons) {
+  collapsibleButton.addEventListener("click", function() {
+    let collapsibleItem = collapsibleButton.nextElementSibling;
+    collapsibleItem.classList.toggle("active");
+    this.classList.toggle("active");
+  });
+}
+
 window.onload = function() {
   centerScrollableElement(imageGallery, imageGalleryControls);
   centerScrollableElement(testimonialGallery, testimonialGalleryControls);
