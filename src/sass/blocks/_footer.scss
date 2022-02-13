@@ -1,0 +1,50 @@
+.footer {
+  padding: 74px 64px 52px 72px;
+  position: relative;
+  background-color: $color-neutral-500;
+  color: white;
+
+  &::before {
+    content: "";
+    width: 500px;
+    height: 618px;
+    position: absolute;
+    background-image: url("../images/footer_bg.jpg");
+    background-repeat: no-repeat;
+    z-index: 1;
+    top: -80px;
+    left: 17%;
+  }
+
+  &__main {
+    position: relative;
+    z-index: 5;
+    margin-left: 48%;
+    width: 500px;
+  }
+
+  &__title {
+    &-highlight {
+      color: $color-primary-200;
+    }
+
+    &-description {
+      font-size: 20px;
+      line-height: 32px;
+      color: $color-neutral-100;
+      margin: 32px 0;
+    }
+  }
+
+  &__bottom {
+    margin-top: 300px;
+    display: flex;
+    justify-content: space-between;
+
+    &-copyright {
+      color: $color-neutral-300;
+      font-size: 12px;
+      line-height: 18px;
+    }
+  }
+}
