@@ -9,6 +9,10 @@
     border: none;
     padding: 0;
     cursor: pointer;
+
+    &-img {
+      z-index: -1;
+    }
   }
 
   &__left {

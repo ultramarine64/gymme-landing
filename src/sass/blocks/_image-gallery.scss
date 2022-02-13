@@ -29,4 +29,47 @@
       user-select: none;
     }
   }
+
+  &__testimonial-card {
+    width: 360px;
+    height: 480px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+
+    &-img {
+      position: absolute;
+      z-index: -1;
+    }
+
+    &-quote {
+      margin: 32px 0px;
+      padding: 0 20px;
+      font-style: italic;
+      font-size: 18px;
+      line-height: 26px;
+      text-align: center;
+      color: #FFFFFF;
+    }
+
+    &-author {
+      display: flex;
+      align-items: center;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 24px;
+      text-align: center;
+      color: #FFFFFF;
+      margin-bottom: 20px;
+
+      &::before {
+        content: "~";
+        font-size: 30px;
+        margin-right: 3px;
+        color: $color-primary-200;
+      }
+    }
+  }
 }

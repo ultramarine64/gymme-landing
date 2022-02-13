@@ -1,0 +1,26 @@
+.community-section {
+  padding-left: 33px;
+  padding-bottom: 180px;
+
+  .container {
+    display: grid;
+    grid-template-columns: 375px 1fr;
+    grid-template-areas: "title    gallery"
+                         "controls gallery";
+    column-gap: 112px;
+  }
+
+  .section-title {
+    grid-area: title;
+  }
+
+  .image-gallery {
+    grid-area: gallery;
+  }
+
+  &__control-buttons {
+    grid-area: controls;
+    align-self: flex-end;
+    margin-left: 70px;
+  }
+}

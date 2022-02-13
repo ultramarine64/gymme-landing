@@ -35,4 +35,11 @@
       width: 122px;
     }
   }
+
+  &_community {
+    &::before {
+      background-image: url("../images/icons/speech.svg");
+      width: 135px;
+    }
+  }
 }
