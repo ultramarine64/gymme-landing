@@ -32,4 +32,9 @@
     line-height: 18px;
     padding: 12px 30px;
   }
+
+  &_pricing_light {
+    border: 1px solid $color-neutral-500;
+    background-color: transparent;
+  }
 }

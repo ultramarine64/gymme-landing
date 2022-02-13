@@ -28,4 +28,11 @@
       width: 120px;
     }
   }
+
+  &_pricing {
+    &::before {
+      background-image: url("../images/icons/price_tag.svg");
+      width: 122px;
+    }
+  }
 }

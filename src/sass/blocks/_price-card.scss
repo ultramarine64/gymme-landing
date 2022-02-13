@@ -1,0 +1,108 @@
+.price-card {
+  width: 405px;
+  padding: 80px 92px;
+  background: rgba(19, 19, 22, 0.05);
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+  align-items: center;
+  justify-content: start;
+
+  &__name {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    background-color: $color-neutral-500;
+    color: white;
+    padding: 4px 14px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  &__price {
+    > span {
+      display: block;
+      text-align: center;
+    }
+
+    &-value {
+      color: $color-neutral-500;
+      font-family: Inter;
+      font-weight: 800;
+      font-size: 50px;
+      line-height: 50px;
+
+      &::after {
+        content: "$";
+        font-size: 30px;
+        line-height: 50px;
+      }
+    }
+
+    &-period {
+      font-family: Inter;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+      color: $color-neutral-400;
+    }
+  }
+
+  &__features {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+  }
+
+  &__feature {
+    color: $color-neutral-500;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    padding-left: 30px;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    &::before {
+      content: "";
+      position: absolute;
+      background-image: url("../../images/icons/circle_check_dark.svg");
+      background-size: 20px 20px;
+      width: 20px;
+      height: 20px;
+      left: 0;
+    }
+  }
+
+  &_long {
+    padding-top: 42px;
+    padding-bottom: 42px;
+  }
+
+  &_dark {
+    background: $color-neutral-500;
+
+    .price-card__name {
+      background-color: white;
+      color: $color-neutral-500;
+    }
+    .price-card__price-value {
+      color: white;
+    }
+    .price-card__price-period,
+    .price-card__feature {
+      color: $color-neutral-200;
+    }
+    .price-card__feature {
+      &::before {
+        background-image: url("../../images/icons/circle_check_light.svg");
+      }
+    }
+  }
+}
