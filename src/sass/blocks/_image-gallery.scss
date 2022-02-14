@@ -5,34 +5,38 @@
   display: flex;
   align-items: center;
   list-style-type: none;
-  column-gap: 32px;
+  column-gap: 2em;
   overflow: hidden;
   scroll-behavior: smooth;
 
   &__card {
-    width: 320px;
+    width: 20em;
     position: relative;
+
+    &-img {
+      width: 100%;
+    }
 
     &-name {
       display: block;
       position: absolute;
-      padding: 4px 14px;
+      padding: 0.286em 1em;
       background-color: $color-neutral-100;
-      bottom: 20px;
-      left: 20px;
+      bottom: 1.429em;
+      left: 1.429em;
       text-transform: capitalize;
       color: $color-neutral-500;
       font-family: Inter;
       font-weight: 600;
       font-size: 0.875rem;
-      line-height: 18px;
+      line-height: 1.286em;
       user-select: none;
     }
   }
 
   &__testimonial-card {
-    width: 360px;
-    height: 480px;
+    width: 22.5em;
+    height: 30em;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -40,16 +44,17 @@
     justify-content: end;
 
     &-img {
+      width: 100%;
       position: absolute;
       z-index: -1;
     }
 
     &-quote {
-      margin: 32px 0px;
+      margin: 1.778em 0;
       padding: 0 20px;
       font-style: italic;
       font-size: 1.125rem;
-      line-height: 26px;
+      line-height: 1.444em;
       text-align: center;
       color: #FFFFFF;
     }
@@ -59,15 +64,15 @@
       align-items: center;
       font-weight: bold;
       font-size: 1.25rem;
-      line-height: 24px;
+      line-height: 1.2em;
       text-align: center;
       color: #FFFFFF;
-      margin-bottom: 20px;
+      margin-bottom: 1em;
 
       &::before {
         content: "~";
         font-size: 1.875rem;
-        margin-right: 3px;
+        margin-right: 0.1em;
         color: $color-primary-200;
       }
     }

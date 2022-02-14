@@ -1,41 +1,41 @@
 .mission-section {
-  padding: 140px 0 90px 0;
+  padding: 8.75em 0 5.625em 0;
 
   &__container {
-    width: 768px;
+    width: 48em;
     margin: 0 auto;
   }
 
   &__description {
-    margin-top: 32px;
+    margin-top: 1.6em;
     font-size: 1.25rem;
-    line-height: 32px;
+    line-height: 1.6em;
     color: $color-neutral-400;
   }
 
   &__join-button {
     display: inline-flex;
-    gap: 12px;
+    gap: 0.857em;
     align-items: center;
     position: relative;
-    padding: 17px 0;
-    margin-top: 32px;
+    padding: 1.214em 0;
+    margin-top: 2.286em;
     text-decoration: none;
     text-transform: uppercase;
     color: $color-neutral-500;
     font-family: Inter;
     font-weight: 800;
     font-size: 0.875rem;
-    line-height: 18px;
-    letter-spacing: 1px;
+    line-height: 1.286em;
+    letter-spacing: 0.071em;
 
     &::after {
       content: "";
       background-image: url("../images/icons/circle_chevron.svg");
       background-repeat: no-repeat;
-      background-size: 22px 22px;
-      width: 22px;
-      height: 22px;
+      background-size: 1.571em 1.571em;
+      width: 1.571em;
+      height: 1.571em;
     }
   }
 }

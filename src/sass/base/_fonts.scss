@@ -9,46 +9,46 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  line-height: 62px;
+  line-height: 1.033em;
   font-size: 3.75rem;
 }
 
 h2 {
-  line-height: 50px;
+  line-height: 1em;
   font-size: 3.125rem;
 }
 
 h3 {
-  line-height: 46px;
+  line-height: 1.211em;
   font-size: 2.375rem;
 }
 
 h4 {
-  line-height: 46px;
+  line-height: 1.533em;
   font-size: 1.875rem;
 }
 
 h5 {
-  line-height: 32px;
+  line-height: 1.333em;
   font-size: 1.5rem;
 }
 
 h6 {
-  line-height: 28px;
+  line-height: 1.556em;
   font-size: 1.125rem;
 }
 
 @mixin text-style-body-large {
-  line-height: 34px;
+  line-height: 31.417em;
   font-size: 1.5rem;
 }
 
 @mixin text-style-body-medium {
-  line-height: 32px;
+  line-height: 1.6em;
   font-size: 1.25rem;
 }
 
 @mixin text-style-body-small {
-  line-height: 26px;
+  line-height: 1.625em;
   font-size: 1rem;
 }

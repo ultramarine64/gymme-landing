@@ -1,18 +1,18 @@
 .footer {
-  padding: 74px 64px 52px 72px;
+  padding: 4.625em 4em 3.25em 4.5em;
   position: relative;
   background-color: $color-neutral-500;
   color: white;
 
   &::before {
     content: "";
-    width: 500px;
-    height: 618px;
+    width: 31.25em;
+    height: 38.625em;
     position: absolute;
     background-image: url("../images/footer_bg.jpg");
     background-repeat: no-repeat;
     z-index: 1;
-    top: -80px;
+    top: -5em;
     left: 17%;
   }
 
@@ -20,12 +20,12 @@
     position: relative;
     z-index: 5;
     margin-left: 48%;
-    width: 500px;
+    width: 31.25em;
   }
 
   &__title {
     font-size: 3.75rem;
-    line-height: 62px;
+    line-height: 1.033em;
 
     &-highlight {
       color: $color-primary-200;
@@ -33,21 +33,21 @@
 
     &-description {
       font-size: 1.25rem;
-      line-height: 32px;
+      line-height: 1.6em;
       color: $color-neutral-100;
-      margin: 32px 0;
+      margin: 1.6em 0;
     }
   }
 
   &__bottom {
-    margin-top: 300px;
+    margin-top: 18.75em;
     display: flex;
     justify-content: space-between;
 
     &-copyright {
       color: $color-neutral-300;
       font-size: 0.75rem;
-      line-height: 18px;
+      line-height: 1.5em;
     }
   }
 }

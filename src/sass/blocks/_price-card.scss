@@ -1,11 +1,11 @@
 .price-card {
-  width: 405px;
-  padding: 80px 92px;
+  width: 25.313em;
+  padding: 5em 5.75em;
   background: rgba(19, 19, 22, 0.05);
   border-radius: 2px;
   display: flex;
   flex-direction: column;
-  row-gap: 32px;
+  row-gap: 2em;
   align-items: center;
   justify-content: start;
 
@@ -15,10 +15,10 @@
     margin: 0 auto;
     background-color: $color-neutral-500;
     color: white;
-    padding: 4px 14px;
+    padding: 0.286em 1em;
     font-weight: 600;
     font-size: 0.875rem;
-    line-height: 18px;
+    line-height: 1.286em;
   }
 
   &__price {
@@ -32,12 +32,12 @@
       font-family: Inter;
       font-weight: 800;
       font-size: 3.125rem;
-      line-height: 50px;
+      line-height: 1em;
 
       &::after {
         content: "$";
         font-size: 1.875rem;
-        line-height: 50px;
+        line-height: 1.667em;
       }
     }
 
@@ -45,7 +45,7 @@
       font-family: Inter;
       font-weight: 500;
       font-size: 0.875rem;
-      line-height: 16px;
+      line-height: 1.143em;
       color: $color-neutral-400;
     }
   }
@@ -56,15 +56,15 @@
     list-style-type: none;
     display: flex;
     flex-direction: column;
-    row-gap: 16px;
+    row-gap: 1em;
   }
 
   &__feature {
     color: $color-neutral-500;
     font-weight: normal;
     font-size: 1rem;
-    line-height: 26px;
-    padding-left: 30px;
+    line-height: 1.625em;
+    padding-left: 1.875em;
     position: relative;
     display: flex;
     align-items: center;
@@ -73,16 +73,16 @@
       content: "";
       position: absolute;
       background-image: url("../images/icons/circle_check_dark.svg");
-      background-size: 20px 20px;
-      width: 20px;
-      height: 20px;
+      background-size: 1.25em 1.25em;
+      width: 1.25em;
+      height: 1.25em;
       left: 0;
     }
   }
 
   &_long {
-    padding-top: 42px;
-    padding-bottom: 42px;
+    padding-top: 2.625em;
+    padding-bottom: 2.625em;
   }
 
   &_dark {

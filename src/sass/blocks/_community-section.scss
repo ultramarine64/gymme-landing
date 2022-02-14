@@ -1,12 +1,12 @@
 .community-section {
-  padding: 90px 0 180px 33px;
+  padding: 5.625em 0 11.25em 2.063em;
 
   .container {
     display: grid;
-    grid-template-columns: 375px 1fr;
+    grid-template-columns: 23.438em 1fr;
     grid-template-areas: "title    gallery"
                          "controls gallery";
-    column-gap: 112px;
+    column-gap: 7em;
   }
 
   .section-title {
@@ -20,6 +20,6 @@
   &__control-buttons {
     grid-area: controls;
     align-self: flex-end;
-    margin-left: 70px;
+    margin-left: 4.375em;
   }
 }

@@ -1,9 +1,9 @@
 .header {
-  height: 790px;
-  padding: 20px 80px;
+  height: 49.375em;
+  padding: 1.25em 5em;
   background-image: url("../images/header_bg.jpg");
   background-position: 75% 0;
-  background-size: 581px 790px;
+  background-size: 36.313em 49.375em;
   background-repeat: no-repeat;
   background-color: $color-neutral-500;
   color: white;
@@ -16,12 +16,12 @@
 
   &__auth {
     display: flex;
-    gap: 16px;
+    gap: 1em;
   }
 
   &__main {
-    margin: 190px 0 0 200px;
-    width: 530px;
+    margin: 11.875em 0 0 12.5em;
+    width: 33.125em;
   }
 
   &__title {
@@ -31,9 +31,9 @@
 
     &-description {
       font-size: 1.5rem;
-      line-height: 34px;
+      line-height: 1.417em;
       color: $color-neutral-200;
-      margin: 32px 0;
+      margin: 1.333em 0;
     }
   }
 }

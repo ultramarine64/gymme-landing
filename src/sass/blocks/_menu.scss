@@ -7,7 +7,7 @@
   }
 
   &__item {
-    margin: 0px 22px;
+    margin: 0px 1.375em;
   }
 
   &__link {
@@ -15,8 +15,8 @@
     color: rgba(255, 255, 255, 0.9);
     font-weight: 500;
     font-size: 1rem;
-    line-height: 18px;
-    padding: 0px 10px;
+    line-height: 1.125em;
+    padding: 0px 0.625em;
     transition: 0.15s all;
 
     &:hover,

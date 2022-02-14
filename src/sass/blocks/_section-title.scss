@@ -2,16 +2,16 @@
   display: flex;
   align-items: center;
   position: relative;
-  padding-left: 70px;
-  height: 120px;
+  padding-left: 1.4em;
+  height: 2.4em;
 
   &::before {
     display: block;
     content: "";
     background-image: url("../images/icons/user_friends.svg");
     background-repeat: no-repeat;
-    width: 150px;
-    height: 120px;
+    width: 3em;
+    height: 2.4em;
     position: absolute;
     z-index: -1;
     left: 0;
@@ -25,21 +25,21 @@
   &_workouts {
     &::before {
       background-image: url("../images/icons/calendar.svg");
-      width: 120px;
+      width: 2.4em;
     }
   }
 
   &_pricing {
     &::before {
       background-image: url("../images/icons/price_tag.svg");
-      width: 122px;
+      width: 2.44em;
     }
   }
 
   &_community {
     &::before {
       background-image: url("../images/icons/speech.svg");
-      width: 135px;
+      width: 2.7em;
     }
   }
 
