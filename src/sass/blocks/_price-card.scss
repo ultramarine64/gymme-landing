@@ -17,7 +17,7 @@
     color: white;
     padding: 4px 14px;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 18px;
   }
 
@@ -31,12 +31,12 @@
       color: $color-neutral-500;
       font-family: Inter;
       font-weight: 800;
-      font-size: 50px;
+      font-size: 3.125rem;
       line-height: 50px;
 
       &::after {
         content: "$";
-        font-size: 30px;
+        font-size: 1.875rem;
         line-height: 50px;
       }
     }
@@ -44,7 +44,7 @@
     &-period {
       font-family: Inter;
       font-weight: 500;
-      font-size: 14px;
+      font-size: 0.875rem;
       line-height: 16px;
       color: $color-neutral-400;
     }
@@ -62,7 +62,7 @@
   &__feature {
     color: $color-neutral-500;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 26px;
     padding-left: 30px;
     position: relative;

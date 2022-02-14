@@ -10,7 +10,7 @@
   text-transform: uppercase;
   font-weight: bold;
   font-family: Inter, sans-serif;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 18px;
   text-align: center;
   letter-spacing: 1px;
@@ -19,7 +19,7 @@
     background-color: transparent;
     border: none;
     color: $color-neutral-100;
-    font-size: 12px;
+    font-size: 0.75rem;
     line-height: 18px;
     padding: 12px 8px;
   }
@@ -28,7 +28,7 @@
     background-color: $color-primary-200;
     border: 2px solid $color-primary-200;
     color: $color-neutral-100;
-    font-size: 12px;
+    font-size: 0.75rem;
     line-height: 18px;
     padding: 12px 30px;
   }

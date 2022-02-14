@@ -24,7 +24,7 @@
   }
 
   &__title {
-    font-size: 60px;
+    font-size: 3.75rem;
     line-height: 62px;
 
     &-highlight {
@@ -32,7 +32,7 @@
     }
 
     &-description {
-      font-size: 20px;
+      font-size: 1.25rem;
       line-height: 32px;
       color: $color-neutral-100;
       margin: 32px 0;
@@ -46,7 +46,7 @@
 
     &-copyright {
       color: $color-neutral-300;
-      font-size: 12px;
+      font-size: 0.75rem;
       line-height: 18px;
     }
   }

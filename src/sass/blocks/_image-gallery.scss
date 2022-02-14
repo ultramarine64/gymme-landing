@@ -24,7 +24,7 @@
       color: $color-neutral-500;
       font-family: Inter;
       font-weight: 600;
-      font-size: 14px;
+      font-size: 0.875rem;
       line-height: 18px;
       user-select: none;
     }
@@ -48,7 +48,7 @@
       margin: 32px 0px;
       padding: 0 20px;
       font-style: italic;
-      font-size: 18px;
+      font-size: 1.125rem;
       line-height: 26px;
       text-align: center;
       color: #FFFFFF;
@@ -58,7 +58,7 @@
       display: flex;
       align-items: center;
       font-weight: bold;
-      font-size: 20px;
+      font-size: 1.25rem;
       line-height: 24px;
       text-align: center;
       color: #FFFFFF;
@@ -66,7 +66,7 @@
 
       &::before {
         content: "~";
-        font-size: 30px;
+        font-size: 1.875rem;
         margin-right: 3px;
         color: $color-primary-200;
       }
