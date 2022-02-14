@@ -5,7 +5,7 @@
   color: white;
 
   @media (max-width: 500px) {
-    padding: 6.625em 2em 3.25em 2em;
+    padding: 20.625em 2em 3.25em 2em;
   }
 
   &::before {
@@ -19,6 +19,7 @@
     z-index: 1;
     top: -5em;
     left: 17%;
+
     @media (max-width: 800px) {
       left: 5%;
       background-size: 28em auto;
