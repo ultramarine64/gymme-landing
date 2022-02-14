@@ -9,6 +9,15 @@
   align-items: center;
   justify-content: start;
 
+  @media (max-width: 1250px) {
+    width: 20em;
+    padding: 3em 3.25em;
+  }
+  @media (max-width: 950px) {
+    width: 19em;
+    padding: 2.75em 3em;
+  }
+
   &__name {
     display: block;
     text-align: center;

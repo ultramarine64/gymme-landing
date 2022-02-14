@@ -8,6 +8,14 @@
 
   &__item {
     margin: 0px 1em;
+
+    @media (max-width: 1250px) {
+      margin: 0px .8em;
+    }
+    @media (max-width: 1000px) {
+      margin: 0px .5em;
+    }
+
   }
 
   &__link {
