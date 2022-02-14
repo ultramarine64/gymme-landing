@@ -13,5 +13,12 @@
     align-items: center;
     column-gap: 2em;
     margin-top: 5em;
+
+    @media (max-width: 840px) {
+      flex-direction: column;
+      row-gap: 2em;
+      align-items: center;
+      justify-content: center;
+    }
   }
 }

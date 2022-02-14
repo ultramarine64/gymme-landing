@@ -9,6 +9,17 @@
   align-items: center;
   justify-content: start;
 
+  & > * {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2em;
+    align-items: center;
+    justify-content: start;
+    @media (max-width: 840px) {
+      justify-content: center;
+    }
+  }
+
   @media (max-width: 1250px) {
     width: 20em;
     padding: 3em 3.25em;
@@ -17,8 +28,19 @@
     width: 19em;
     padding: 2.75em 3em;
   }
+  @media (max-width: 840px) {
+    width: 75vw;
+    display: grid;
+    grid-template-areas: "name  features"
+                         "price button";
+    row-gap: 0;
+    column-gap: 8em;
+    justify-content: center;
+    align-items: center;
+  }
 
   &__name {
+    grid-area: name;
     display: block;
     text-align: center;
     margin: 0 auto;
@@ -31,6 +53,8 @@
   }
 
   &__price {
+    grid-area: price;
+
     > span {
       display: block;
       text-align: center;
@@ -60,6 +84,8 @@
   }
 
   &__features {
+    grid-area: features;
+
     margin: 0;
     padding: 0;
     list-style-type: none;

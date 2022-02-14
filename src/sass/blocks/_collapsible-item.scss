@@ -1,4 +1,5 @@
 .collapsible-item {
+  max-width: 80vw;
   width: 47.75em;
   background: #FFFFFF;
   border: 1px solid rgba(19, 19, 22, 0.1);
@@ -10,6 +11,7 @@
     background: none;
     border: none;
     padding: 0;
+    padding-right: 2em;
     cursor: pointer;
     display: block;
     font-family: Inter;

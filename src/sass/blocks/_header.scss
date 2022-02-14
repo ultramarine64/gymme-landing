@@ -30,6 +30,10 @@
   &__main {
     margin: 11.875em 0 0 12.5em;
     width: 33.125em;
+    max-width: 50vw;
+    @media (max-width: 500px) {
+      margin: 5em 0 0 5em;
+    }
   }
 
   &__title {
