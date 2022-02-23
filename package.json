@@ -3,7 +3,6 @@
   "resolutions": { "glob-parent": "^6.0.1" },
   "scripts": {
     "deploy": "gh-pages -d dist"
-
   },
   "preinstall": "npx npm-force-resolutions",
   "devDependencies": {
