@@ -59,6 +59,13 @@ html {
   }
 }
 
+// control-buttons
+.control-buttons {
+  @media (max-width: 840px) {
+    display: none;
+  }
+}
+
 // footer
 .footer {
   @media (max-width: 500px) {
@@ -125,6 +132,14 @@ html {
     @media (max-width: 600px) {
       margin: 5em 0 0 5em;
     }
+  }
+}
+
+// image-gallery
+.image-gallery {
+  @media (max-width: 840px) {
+    padding: 0 2em;
+    overflow: scroll;
   }
 }
 
