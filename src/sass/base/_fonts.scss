@@ -37,18 +37,3 @@ h6 {
   line-height: 1.556em;
   font-size: 1.125rem;
 }
-
-@mixin text-style-body-large {
-  line-height: 31.417em;
-  font-size: 1.5rem;
-}
-
-@mixin text-style-body-medium {
-  line-height: 1.6em;
-  font-size: 1.25rem;
-}
-
-@mixin text-style-body-small {
-  line-height: 1.625em;
-  font-size: 1rem;
-}
