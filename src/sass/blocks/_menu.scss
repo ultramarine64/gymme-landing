@@ -1,8 +1,4 @@
 .menu {
-  @media (max-width: 840px) {
-    display: none;
-  }
-
   &__list {
     list-style-type: none;
     display: flex;
@@ -12,14 +8,6 @@
 
   &__item {
     margin: 0px 1em;
-
-    @media (max-width: 1250px) {
-      margin: 0px .8em;
-    }
-    @media (max-width: 1000px) {
-      margin: 0px .5em;
-    }
-
   }
 
   &__link {

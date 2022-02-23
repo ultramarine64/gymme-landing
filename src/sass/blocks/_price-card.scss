@@ -15,37 +15,6 @@
     row-gap: 2em;
     align-items: center;
     justify-content: start;
-    @media (max-width: 840px) {
-      justify-content: center;
-    }
-  }
-
-  @media (max-width: 1250px) {
-    width: 20em;
-    padding: 3em 3.25em;
-  }
-  @media (max-width: 950px) {
-    width: 19em;
-    padding: 2.75em 3em;
-  }
-  @media (max-width: 840px) {
-    width: 75vw;
-    display: grid;
-    grid-template-areas: "name  features"
-                         "price button";
-    row-gap: 0;
-    column-gap: 8em;
-    justify-content: center;
-    align-items: center;
-  }
-  @media (max-width: 600px) {
-    width: 80vw;
-    column-gap: 4em;
-  }
-  @media (max-width: 400px) {
-    width: 85vw;
-    column-gap: 1em;
-    padding: 2.75em 1em;
   }
 
   &__name {
